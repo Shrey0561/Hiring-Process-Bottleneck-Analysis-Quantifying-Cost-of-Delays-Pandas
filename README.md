@@ -4,29 +4,73 @@
 ## TL;DR
 **Problem:** HR teams often underestimate the true cost of hiring delays, each day a vacancy stays open increases lost productivity and revenue opportunity.
 
-**Process:** Using synthetic HR operations data, I analyzed hiring timelines, cost of vacancy, and SLA adherence to identify delay drivers. Then, I modeled potential cost savings if key stages improved by 10-30%
+**Process:** Analyzed synthetic HR operations data to calculate the financial effect of hiring bottlenecks across departments, approval levels, and SLA breaches.
 
-**Result:** 
-* Each day of delay costs ~$4.8K per role
-* 56% of roles breached SLA timelines
-* Sales & Engineering faced the highest cost of delay
-* Improving decision speed by 20% could save ~$1,000 per role
+**Result:** Identified key delay stages and potential cost savings of **$900-$1,200 per vacancy** with 20% faster approvals.
 
 ## Table of Contents
 
-## Key Highlights
-* **Correlation Analysis:** Identified strongest delay-cost links, offer approval & interviews.
-* **Bottleneck Detection:** Operations, HR, and Sales were top departments affected.
-* **SLA Analysis:** Over 50% of requests missed timelines.
-* **Impact Simulation:** Modeled savings potential using Python for 10%, 20%, and 30% delay reductions.
+## Overview
+This analysis explores how **hiring inefficiencies** contribute to lost productivity and rising costs. Using a synthetic dataset of HR process stages, I measured **time-to-fill, cost of vacancy**, and **SLA adherence** to uncover where decisions stall, and how much each delay costs in USD.
+
+## Key Questions Answered
+* Which departments experience the longest hiring delays?
+* What's the average cost impact per day of delay?
+* How often do SLAs get breached, and at which stage?
+* How much could organizations save by improving process efficiency by 10-30%?
+
+## KPIs Tracked
+|Metric                     | Value                      |
+|---------------------------|----------------------------|
+|Average Total Hiring Delay |20.9 Days                   |
+|Average Cost of Delay      |$4,835.22 per role          |
+|SLA Breach Rate            |56% overall                 |
+|Highest Delay Stage        |Offer Approval & Interviews |
+
+## Visual Insights
+**Cost of Delay by Department**
+
+![
+
+*Interpretation:* Sales and Engineering departments face the highest cost of delay, exceeding $5K per role. Operational roles also show above-average lag, suggesting approval dependencies.
+
+**SLA Breach Distribution**
+
+![
+
+*Interpretation:* Over half the hiring requests exceed defined SLAs with Offer Approval and Interviews being the biggest culprits.
+
+**Correlation Heatmap**
+
+![
+
+*Interpretation:* Cost of delay shows the strongest correlation with **Estimated Cost of Vacancy per Day (0.75)** and **Total Hiring Delay (0.54)**, confirming that time inefficiency directly translates to financial loss.
+
+## Interpretation & Business Impact
+* **Each day of hiring delay costs the company ~$4.8K.**
+* **Offer Approval and Interview durations** are the biggest bottlenecks.
+* Reducing overall delay by 20% could save **$900-$1,200 per role.
+* Even small process optimizations like parallelizing approvals or automating scheduling can yield measurable ROI when scaled across multiple roles.
+
+
+## Conclusion
+Hiring delays aren't just operational issues, they're financial risks. More than half of roles miss SLA targets, and high-value departments like **Sales** and **Engineering** carry the heaviest costs. 
+Reducing decision turnaround time doesn't just speed hiring; it protects company margins and improves candidate experience.
+
+## Advanced Section: Monte Carlo Simulation (Optional)
+To explore uncertainty in real hiring timelines, I simulated 1,000 random hiring cycles using a Monte Carlo approach. Each iteration varied total hiring delay by ±20% around the average of 21 days and recalculated the resulting cost of delay.
+
+**Key Takeaways:** 
+* Average simulated cost per hire ranged **$3.9K-$5.7K**.
+* The "tail risk" (worst 10%) exceeded **$6K**, highlighting financial volatility.
+* Faster approvals cut projected losses by up to **25%**.
+
+*This simulation adds a probabilistic layer of HR analytics, showing that small process shifts don't just improve speed, they **de-risk the business.***
 
  ## Tools Used 
  * **Python (Pandas, Matplotlib):** Data cleaning, analysis, and impact simulation
  * **Excel:** Data verification & structure validation
  * **Jupyter Notebook:** Visualization and documentation
-
-## Business Insight 
-Even small improvements in approval turnaround and interview scheduling can lead to measurable financial gains. Streamlined hiring isn't just faster, it's more cost effecient and scalable.
 
 ## What This Project Demonstrates
 * Ability to connect HR operations metrics to financial outcomes
@@ -34,4 +78,11 @@ Even small improvements in approval turnaround and interview scheduling can lead
 * Understanding of SLA, time-to-fill, and cost-of-delay frameworks
 * Business storytelling with measurable impact
 
-## Next Steps
+## Let's Connect
+I'm building my career in data and HR analytics with a focus on understanding workplace dynamics through HR data. Feel free to reach out via:
+
+* [GitHub](https://github.com/Shrey0561)
+* [LinkedIn](https://www.linkedin.com/in/shreya-srinath-879a66205/)
+* [Notion](https://www.notion.so/Data-Analyst-Portfolio-221ebe151fdd801e9445e32590b67758?source=copy_link)
+
+I'm always up for conversations, mentorship, or entry-level opportunities.
