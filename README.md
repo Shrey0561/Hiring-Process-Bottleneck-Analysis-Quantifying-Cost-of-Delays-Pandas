@@ -9,6 +9,17 @@
 **Result:** Identified key delay stages and potential cost savings of **$900-$1,200 per vacancy** with 20% faster approvals.
 
 ## Table of Contents
+- [Overview](#overview)
+- [Key Questions Answered](#key-questions-answered)
+- [KPIs Tracked](#kpis-tracked)
+- [Visual Insights](#visual-insights)
+- [Case Study Full Walkthrough](#case-study-full-walkthrough)
+- [Interpretation & Business Impact](#interpretation--business-impact)
+- [Conclusion](#conclusion)
+- [Advanced Section: Monte Carlo Simulation (Optional)](#advanced-section-monte-carlo-simulation-optional)
+- [Tools Used](#tools-used)
+- [What This Project Demonstrates](#what-this-project-demonstrates)
+- [Let's Connect](#lets-connect)
 
 ## Overview
 This analysis explores how **hiring inefficiencies** contribute to lost productivity and rising costs. Using a synthetic dataset of HR process stages, I measured **time-to-fill, cost of vacancy**, and **SLA adherence** to uncover where decisions stall, and how much each delay costs in USD.
@@ -30,21 +41,25 @@ This analysis explores how **hiring inefficiencies** contribute to lost producti
 ## Visual Insights
 **Cost of Delay by Department**
 
-![
+![average_cost_of_delay_by_department](average_cost_of_delay_by_department.png)
 
 *Interpretation:* Sales and Engineering departments face the highest cost of delay, exceeding $5K per role. Operational roles also show above-average lag, suggesting approval dependencies.
 
 **SLA Breach Distribution**
 
-![
+![sla_breach_rate_per_stage](sla_breach_rate_per_stage.png)
 
 *Interpretation:* Over half the hiring requests exceed defined SLAs with Offer Approval and Interviews being the biggest culprits.
 
 **Correlation Heatmap**
 
-![
+![correlation_heatmap](correlation_heatmap.png)
 
 *Interpretation:* Cost of delay shows the strongest correlation with **Estimated Cost of Vacancy per Day (0.75)** and **Total Hiring Delay (0.54)**, confirming that time inefficiency directly translates to financial loss.
+
+## Case Study (Full Walkthrough)
+For a deeper look at the analysis logic, segmentation methodology, and strategic recommendations, explore the full case study below: 
+[View the full case study](https://docs.google.com/document/d/1ZDfiMZUW__Gul1wgNmBhXl8CgdCVM5ISgdzAGKFFHRE/edit?usp=sharing)
 
 ## Interpretation & Business Impact
 * **Each day of hiring delay costs the company ~$4.8K.**
