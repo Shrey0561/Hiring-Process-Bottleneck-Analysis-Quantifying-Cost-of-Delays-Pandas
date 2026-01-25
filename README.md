@@ -16,7 +16,7 @@
 - [Case Study Full Walkthrough](#case-study-full-walkthrough)
 - [Interpretation & Business Impact](#interpretation--business-impact)
 - [Conclusion](#conclusion)
-- [Optional Analysis: Scenario--Based Cost Sensitivity](#advanced-section-monte-carlo-simulation-optional)
+- [Optional Analysis: Scenario-Based Cost Sensitivity](#advanced-section-monte-carlo-simulation-optional)
 - [Tools Used](#tools-used)
 - [What This Project Demonstrates](#what-this-project-demonstrates)
 - [Let's Connect](#lets-connect)
