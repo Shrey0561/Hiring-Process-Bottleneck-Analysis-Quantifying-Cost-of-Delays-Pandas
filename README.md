@@ -1,12 +1,12 @@
-# Decision-Bottleneck-Simulator-Turning-Hiring-Delays-into-Data-Insights
+# Hiring Process Bottleneck Analysis - Quantifying Cost of Delays
 > Self-initiated project exploring how hiring delays translate into real financial impact, quantifying decision bottlenecks across the talent pipeline.
 
 ## TL;DR
-**Problem:** HR teams often underestimate the true cost of hiring delays, each day a vacancy stays open increases lost productivity and revenue opportunity.
+**Problem:** Hiring delays hide real financial losses, but are rarely quantified.
 
-**Process:** Analyzed synthetic HR operations data to calculate the financial effect of hiring bottlenecks across departments, approval levels, and SLA breaches.
+**Process:** Analyzed HR hiring workflow data to identify delay stages, SLA breaches, and the cost of vacancy across departments.
 
-**Result:** Identified key delay stages and potential cost savings of **$900-$1,200 per vacancy** with 20% faster approvals.
+**Result:** Identified Offer Approval and Interviews as key bottlenecks; a 20% reduction in delays could save **$900-$1,200 per hire.**
 
 ## Table of Contents
 - [Overview](#overview)
@@ -69,11 +69,13 @@ For a deeper look at the analysis logic, segmentation methodology, and strategic
 
 
 ## Conclusion
-Hiring delays aren't just operational issues, they're financial risks. More than half of roles miss SLA targets, and high-value departments like **Sales** and **Engineering** carry the heaviest costs. 
+Hiring delays aren't just operational issues; they're financial risks. More than half of roles miss SLA targets, and high-value departments like **Sales** and **Engineering** carry the highest costs. 
 Reducing decision turnaround time doesn't just speed hiring; it protects company margins and improves candidate experience.
 
-## Advanced Section: Monte Carlo Simulation (Optional)
-To explore uncertainty in real hiring timelines, I simulated 1,000 random hiring cycles using a Monte Carlo approach. Each iteration varied total hiring delay by ±20% around the average of 21 days and recalculated the resulting cost of delay.
+## Optional Analysis: Scenario-Based Cost Sensitivity
+*Included to explore risk ranges; not required for core business conclusions.*
+
+To explore uncertainty in real hiring timelines, I simulated 1,000 random hiring cycles using a Monte Carlo approach. Each iteration varied the total hiring delay by ±20% around the average of 21 days and recalculated the resulting cost of delay.
 
 **Key Takeaways:** 
 * Average simulated cost per hire ranged **$3.9K-$5.7K**.
@@ -88,10 +90,10 @@ To explore uncertainty in real hiring timelines, I simulated 1,000 random hiring
  * **Jupyter Notebook:** Visualization and documentation
 
 ## What This Project Demonstrates
-* Ability to connect HR operations metrics to financial outcomes
-* Experience in Python-based analytics and process modeling
-* Understanding of SLA, time-to-fill, and cost-of-delay frameworks
-* Business storytelling with measurable impact
+* Translating HR process delays into **financial impact**
+* Identifying operational bottlenecks using SLA and time-to-fill metrics
+* Supporting **process improvement decisions** with quantified insights
+* Communicating findings through dashboards and clear business narratives
 
 ## Let's Connect
 I'm building my career in data and HR analytics with a focus on understanding workplace dynamics through HR data. Feel free to reach out via:
