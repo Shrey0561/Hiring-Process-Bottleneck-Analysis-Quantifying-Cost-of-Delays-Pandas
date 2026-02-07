@@ -15,6 +15,7 @@
 - [Visual Insights](#visual-insights)
 - [Case Study Full Walkthrough](#case-study-full-walkthrough)
 - [Interpretation & Business Impact](#interpretation--business-impact)
+- [Recommended Actions](#recommended-actions)
 - [Conclusion](#conclusion)
 - [Optional Analysis: Scenario-Based Cost Sensitivity](#optional-analysis-scenario-based-cost-sensitivity)
 - [Tools Used](#tools-used)
@@ -49,7 +50,7 @@ This analysis explores how **hiring inefficiencies** contribute to lost producti
 
 ![sla_breach_rate_per_stage](sla_breach_rate_per_stage.png)
 
-*Interpretation:* Over half the hiring requests exceed defined SLAs with Offer Approval and Interviews being the biggest culprits.
+*Interpretation:* Over half the hiring requests exceed defined SLAs, with Offer Approval and Interviews being the biggest culprits.
 
 **Correlation Heatmap**
 
@@ -67,6 +68,11 @@ For a deeper look at the analysis logic, segmentation methodology, and strategic
 * Reducing overall delay by 20% could save **$900-$1,200 per role.
 * Even small process optimizations like parallelizing approvals or automating scheduling can yield measurable ROI when scaled across multiple roles.
 
+## Recommended Actions
+* Implement parallel approval workflows for high-value roles
+* Introduce SLA-based automated reminders for interview scheduling
+* Track approval turnaround time as a performance metric
+* Prioritize Sales & Engineering roles with fast-track hiring lanes
 
 ## Conclusion
 Hiring delays aren't just operational issues; they're financial risks. More than half of roles miss SLA targets, and high-value departments like **Sales** and **Engineering** carry the highest costs. 
