@@ -13,7 +13,6 @@
 - [Key Questions Answered](#key-questions-answered)
 - [KPIs Tracked](#kpis-tracked)
 - [Visual Insights](#visual-insights)
-- [Case Study Full Walkthrough](#case-study-full-walkthrough)
 - [Interpretation & Business Impact](#interpretation--business-impact)
 - [Recommended Actions](#recommended-actions)
 - [Conclusion](#conclusion)
@@ -57,10 +56,6 @@ This analysis explores how **hiring inefficiencies** contribute to lost producti
 ![correlation_heatmap](correlation_heatmap.png)
 
 *Interpretation:* Cost of delay shows the strongest correlation with **Estimated Cost of Vacancy per Day (0.75)** and **Total Hiring Delay (0.54)**, confirming that time inefficiency directly translates to financial loss.
-
-## Case Study (Full Walkthrough)
-For a deeper look at the analysis logic, segmentation methodology, and strategic recommendations, explore the full case study below: 
-[View the full case study](https://docs.google.com/document/d/1ZDfiMZUW__Gul1wgNmBhXl8CgdCVM5ISgdzAGKFFHRE/edit?usp=sharing)
 
 ## Interpretation & Business Impact
 * **The average hiring delay results in ~$4.8K** in vacancy cost per role.
