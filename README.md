@@ -63,9 +63,9 @@ For a deeper look at the analysis logic, segmentation methodology, and strategic
 [View the full case study](https://docs.google.com/document/d/1ZDfiMZUW__Gul1wgNmBhXl8CgdCVM5ISgdzAGKFFHRE/edit?usp=sharing)
 
 ## Interpretation & Business Impact
-* **Each day of hiring delay costs the company ~$4.8K.**
+* **The average hiring delay results in ~$4.8K** in vacancy cost per role.
 * **Offer Approval and Interview durations** are the biggest bottlenecks.
-* Reducing overall delay by 20% could save **$900-$1,200 per role.
+* Reducing overall delay by 20% could save **$900-$1,200** per role.
 * Even small process optimizations like parallelizing approvals or automating scheduling can yield measurable ROI when scaled across multiple roles.
 
 ## Recommended Actions
@@ -73,6 +73,8 @@ For a deeper look at the analysis logic, segmentation methodology, and strategic
 * Introduce SLA-based automated reminders for interview scheduling
 * Track approval turnaround time as a performance metric
 * Prioritize Sales & Engineering roles with fast-track hiring lanes
+
+> These interventions target the highest-impact bottlenecks identified in the analysis and are expected to reduce vacancy-related financial exposure.
 
 ## Conclusion
 Hiring delays aren't just operational issues; they're financial risks. More than half of roles miss SLA targets, and high-value departments like **Sales** and **Engineering** carry the highest costs. 
@@ -93,7 +95,7 @@ To explore uncertainty in real hiring timelines, I simulated 1,000 random hiring
  ## Tools Used 
  * **Python (Pandas, Matplotlib):** Data cleaning, analysis, and impact simulation
  * **Excel:** Data verification & structure validation
- * **Jupyter Notebook:** Visualization and documentation
+ * **Jupyter Notebook:** Analytical workflow and simulation modeling
 
 ## What This Project Demonstrates
 * Translating HR process delays into **financial impact**
