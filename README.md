@@ -1,4 +1,4 @@
-# Hiring Process Bottleneck Analysis - Quantifying Cost of Delays
+# Hiring Process Bottleneck Analysis - Quantifying Cost of Delays (Pandas)
 > Self-initiated project exploring how hiring delays translate into real financial impact, quantifying decision bottlenecks across the talent pipeline.
 
 ## TL;DR
